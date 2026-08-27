@@ -18,6 +18,7 @@ modules:
         url: https://gitlab.com/Krafting/pedantik
         tag: '1.5.2'
         commit: d20745604a911bf1ca07ab3170635e64a3441907
+        x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
 
   - name: English_Model_File
     buildsystem: simple
@@ -26,6 +27,7 @@ modules:
       - install -Dm 644 GoogleNews-vectors-negative300-SLIM.bin /app/share/extra/English/model.bin
     sources:
       - type: git
-        url: https://github.com/eyaler/word2vec-slim
-        commit: 35249de201875ac818eb78f7cc113c87c6e21bcc
+        url: https://gitlab.com/Krafting/language-vectors-models
+        branch: english
+        commit: a98931d2afa3e0e7fbeae89f4be27637af229b7f
 
