@@ -28,6 +28,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/language-vectors-models
-        branch: english
+        tag: 1.0-english
         commit: a98931d2afa3e0e7fbeae89f4be27637af229b7f
 
