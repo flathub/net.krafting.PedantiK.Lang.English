@@ -16,8 +16,8 @@ modules:
         path: net.krafting.PedantiK.Lang.English.metainfo.xml
       - type: git
         url: https://gitlab.com/Krafting/pedantik
-        tag: 1.6.0
-        commit: 6172ffdcc0907cf9b44b7bb3fb173e01b585f2bb
+        tag: 1.6.1
+        commit: 436f13c5a8a7980c583247881e5ab4ab98c6eb21
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
 
   - name: English_Model_File
